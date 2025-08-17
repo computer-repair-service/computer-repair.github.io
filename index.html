@@ -1,106 +1,752 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Ремонт компьютеров и ноутбуков в Тбилиси — Выезд мастера, чистка, установка Windows</title>
+    <meta name="robots" content="index, follow" />
     <meta name="description" content="Профессиональный ремонт ноутбуков и компьютеров в Тбилиси. Чистка, замена матрицы, установка Windows, выезд мастера на дом. Скупка техники. Гарантия!">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="ремонт ноутбука Тбилиси, чистка ноутбука, замена матрицы ноутбука, выезд мастера, установка Windows, скупка компьютеров, сервисный центр ноутбуков, диагностика ноутбука, апгрейд ноутбука, не включается ноутбук">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/feature.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/vendor/lightbox.css">
+    <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/vendor/odometer.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-    <!-- Главный заголовок -->
-    <h1>Профессиональный ремонт компьютеров и ноутбуков в Тбилиси — быстро, с выездом на дом</h1>
-    <p>Наш сервис предлагает качественный ремонт, настройку и обслуживание компьютерной техники в Тбилиси. Работаем с ноутбуками и ПК всех брендов: <strong>Lenovo, Dell, HP, Asus, Acer, MSI, Apple</strong> и другими. Быстро устраняем неисправности — от простой чистки до сложного ремонта материнской платы.</p>
-
-    <!-- Ценности компании -->
-    <h2>Наши ценности</h2>
-    <p>Мы строим работу на доверии, профессионализме и уважении к клиентам. Каждый заказ — это ответственность, которую мы выполняем на 100%.</p>
-
-    <div>
-        <h3>Честность</h3>
-        <p>Прозрачные цены без скрытых платежей. Предварительная диагностика и согласование стоимости перед началом работ.</p>
+    <!-- start header Arae -->
+    <header class="header-area formobile-menu header--transparent default-color">
+        <div class="header-wrapper" id="header-wrapper">
+            <div class="header-left">
+                <div class="logo"><a href="index.html"><img src="assets/images/logo/logo.png" alt="Computer Repair Tbilisi"></a>
+                </div>
+            </div>
+            <div class="header-right">
+                <nav class="mainmenunav d-none d-md-block">
+                    <ul class="mainmenu">
+                        <li class="has-dropdown">
+                            <a href="#">Главная</a>
+                            <ul class="submenu">
+                                <li><a href="index.html">Главная</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a href="#">Услуги</a>
+                            <ul class="submenu">
+                                <li><a href="#services">Все услуги</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#testimonials">Отзывы</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header-btn">
+                    <a class="btn-default btn-border btn-opacity" href="tel:+995555123456">
+                        <span>Позвонить</span>
+                    </a>
+                </div>
+                <div class="humberger-menu d-block d-lg-none pl--20 pl_sm--10">
+                    <span class="menutrigger text-white">
+                        <i data-feather="menu"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header Arae -->
+    <!-- Start Popup Menu Area  -->
+    <div class="rn-popup-mobile-menu d-block d-lg-none">
+        <div class="inner">
+            <div class="popup-menu-top">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/images/logo/logo-symbol-dark.png" alt="Computer Repair Tbilisi"></a>
+                </div>
+                <div class="close-menu d-block d-lg-none">
+                    <span class="closeTrigger">
+                    <i data-feather="x"></i>
+                </span>
+                </div>
+            </div>
+            <ul class="mainmenu">
+                 <li class="has-dropdown">
+                    <a href="#">Главная</a>
+                    <ul class="submenu">
+                        <li><a href="index.html">Главная</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">Услуги</a>
+                    <ul class="submenu">
+                        <li><a href="#services">Все услуги</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#testimonials">Отзывы</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
     </div>
-
-    <div>
-        <h3>Стратегия</h3>
-        <p>Индивидуальный подход к каждому клиенту — дома или в офисе. Быстро определяем причину поломки и выбираем оптимальное решение.</p>
+    <!-- End Popup Menu Area  -->
+    <!-- Start Slider Area -->
+    <div class="slider-wrapper color-white">
+        <div class="slider-activation slider-digital-agency">
+            <div class="rn-slick-dot dot-light rn-slick-activation" data-slick-options='{
+                "slidesToShow": 1, 
+                "slidesToScroll": 1, 
+                "arrows": true, 
+                "fade": true,
+                "infinite": true,
+                "easing": "fade",
+                "infinite": true,
+                "adaptiveHeight": true,
+                "dots": true 
+            }'>
+                <!-- Start Single Slider  -->
+                <div class="single-hero-banner">
+                    <div class="slide slide-style-2 fullscreen d-flex align-items-center justify-content-center bg_image bg_image--22" data-black-overlay="2" tabindex="-1">
+                        <div class="container">
+                            <div class="row">
+                                <!-- Slider Content -->
+                                <div class="col-lg-12">
+                                    <div class="inner text-center">
+                                        <h1 class="title">Ремонт ноутбуков в Тбилиси</h1>
+                                        <p class="description">Профессиональный ремонт, чистка, диагностика и выезд мастера на дом. Гарантия на все работы.
+                                        </p>
+                                        <div class="slide-btn">
+                                            <a class="btn-default" href="#contact">Вызвать мастера</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slider Content End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Slider  -->
+                <!-- Start Single Slider  -->
+                <div class="single-hero-banner">
+                    <div class="slide slide-style-2 fullscreen d-flex align-items-center justify-content-center bg_image bg_image--23" data-black-overlay="2" tabindex="-1">
+                        <div class="container">
+                            <div class="row">
+                                <!-- Slider Content -->
+                                <div class="col-lg-12">
+                                    <div class="inner text-center">
+                                        <h1 class="title">Установка Windows</h1>
+                                        <p class="description">Быстрая установка Windows 10/11 с драйверами и настройкой. Восстановление системы.
+                                        </p>
+                                        <div class="slide-btn">
+                                            <a class="btn-default" href="#contact">Заказать услугу</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slider Content End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Slider  -->
+                <!-- Start Single Slider  -->
+                <div class="single-hero-banner">
+                    <div class="slide slide-style-2 fullscreen d-flex align-items-center justify-content-center bg_image bg_image--24" data-black-overlay="2" tabindex="-1">
+                        <div class="container">
+                            <div class="row">
+                                <!-- Slider Content -->
+                                <div class="col-lg-12">
+                                    <div class="inner text-center">
+                                        <h1 class="title">Скупка техники</h1>
+                                        <p class="description">Выгодно купим ваш старый ноутбук или компьютер в любом состоянии. Наличные сразу.
+                                        </p>
+                                        <div class="slide-btn">
+                                            <a class="btn-default" href="#contact">Продать технику</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slider Content End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div>
-        <h3>Развитие</h3>
-        <p>Постоянное обучение мастеров, использование современных инструментов и качественных комплектующих.</p>
+    <!-- End Slider Area -->
+    <!-- About Section Start -->
+    <div id="about" class="about-area ptb--120 bg_color--1">
+        <div class="about-wrapper">
+            <div class="container">
+                <div class="row row--20 align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="thumbnail"><img class="w-100" src="assets/images/about/about-3.jpg" alt="Ремонт компьютеров Тбилиси"></div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-inner inner">
+                            <div class="section-title"><span class="subtitle">О нашей компании</span>
+                                <h2 class="title">Наши ценности</h2>
+                                <p class="description">Мы строим работу на доверии, профессионализме и уважении к клиентам. Каждый заказ — это ответственность, которую мы выполняем на 100%.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <div class="about-us-list">
+                                        <h5 class="title">Честность</h5>
+                                        <p>Прозрачные цены без скрытых платежей. Предварительная диагностика и согласование стоимости перед началом работ.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <div class="about-us-list">
+                                        <h5 class="title">Стратегия</h5>
+                                        <p>Индивидуальный подход к каждому клиенту — дома или в офисе. Быстро определяем причину поломки и выбираем оптимальное решение.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <div class="about-us-list">
+                                        <h5 class="title">Развитие</h5>
+                                        <p>Постоянное обучение мастеров, использование современных инструментов и качественных комплектующих.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <div class="about-us-list">
+                                        <h5 class="title">Качество</h5>
+                                        <p>Гарантия на все виды ремонта. Только проверенные решения и долгосрочная поддержка.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="purchase-btn mt--50"><a class="btn-transparent" href="#services">Наши услуги</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div>
-        <h3>Качество</h3>
-        <p>Гарантия на все виды ремонта. Только проверенные решения и долгосрочная поддержка.</p>
+    <!-- About Section End -->
+    <!-- Start Services Section -->
+    <div id="services" class="service-area ptb--120 bg_color--5">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center"><span class="subtitle">Что мы можем для вас сделать</span>
+                            <h2 class="title">Наши услуги</h2>
+                            <p class="description">Полный спектр услуг по ремонту и обслуживанию техники в Тбилиси — быстро, надёжно, с выездом.<br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-12 mt--30">
+                        <div class="row service-main-wrapper">
+                            <!-- Start Single Services -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <a href="#contact">
+                                    <div class="service service__style--2 text-start">
+                                        <div class="icon">
+                                            <i data-feather="cpu"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Чистка ноутбука</h3>
+                                            <p>Устраняем перегрев, продлеваем срок службы. Замена термопасты и прочистка системы охлаждения.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- End Single Services -->
+                            <!-- Start Single Services -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <a href="#contact">
+                                    <div class="service service__style--2 text-start">
+                                        <div class="icon">
+                                            <i data-feather="monitor"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Замена матрицы</h3>
+                                            <p>Ремонт после повреждений. Замена экрана, шлейфа, клавиатуры на ноутбуках всех брендов.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- End Single Services -->
+                            <!-- Start Single Services -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <a href="#contact">
+                                    <div class="service service__style--2 text-start">
+                                        <div class="icon">
+                                            <i data-feather="tool"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Ремонт плат и БП</h3>
+                                            <p>Ремонт материнских плат, блоков питания, гнёзд зарядки. Пайка, диагностика, восстановление.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- End Single Services -->
+                            <!-- Start Single Services -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <a href="#contact">
+                                    <div class="service service__style--2 text-start">
+                                        <div class="icon">
+                                            <i data-feather="hard-drive"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Установка Windows</h3>
+                                            <p>Установка Windows 7/10/11 с драйверами, настройкой и защитой от вирусов. Восстановление системы.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Start Single Services -->
+                            <!-- Start Single Services -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <a href="#contact">
+                                    <div class="service service__style--2 text-start">
+                                        <div class="icon">
+                                            <i data-feather="truck"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Выезд мастера</h3>
+                                            <p>Удобно, быстро, без лишних хлопот. Выезд мастера на дом или в офис по всему Тбилиси.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Start Single Services -->
+                            <!-- Start Single Services -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <a href="#contact">
+                                    <div class="service service__style--2 text-start">
+                                        <div class="icon">
+                                            <i data-feather="trending-up"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Апгрейд ноутбука</h3>
+                                            <p>Замена SSD, ОЗУ, модернизация системы. Ускорьте свой компьютер без покупки нового.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Start Single Services -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <!-- Услуги -->
-    <h2>Услуги, которые мы предоставляем</h2>
-    <p>Полный спектр услуг по ремонту и обслуживанию техники в Тбилиси — быстро, надёжно, с выездом.</p>
-    <ul>
-        <li><strong>Чистка ноутбука от пыли и замена термопасты</strong> — устраняем перегрев, продлеваем срок службы.</li>
-        <li><strong>Замена матрицы ноутбука</strong>, экрана, шлейфа, клавиатуры — ремонт после повреждений.</li>
-        <li><strong>Ремонт материнских плат</strong>, блоков питания, гнёзд зарядки — пайка, диагностика, восстановление.</li>
-        <li><strong>Установка Windows</strong> (7, 10, 11) — с драйверами, настройкой и защитой от вирусов.</li>
-        <li><strong>Выезд мастера на дом или в офис по Тбилиси</strong> — удобно, быстро, без лишних хлопот.</li>
-        <li><strong>Апгрейд ноутбука</strong> — замена SSD, ОЗУ, модернизация системы.</li>
-        <li><strong>Скупка старых компьютеров и ноутбуков</strong> — даже сломанных, в любом состоянии, по честной цене.</li>
-    </ul>
-
-    <!-- Последние работы -->
-    <h2>Наши последние работы</h2>
-    <p>Наши мастера ежедневно ремонтируют устройства по всему Тбилиси. Вот лишь несколько примеров:</p>
-    <ul>
-        <li><strong>Не включается ноутбук Lenovo</strong> — диагностика, замена аккумулятора, ремонт платы.</li>
-        <li><strong>Ноутбук греется и выключается</strong> — чистка кулера, замена термопасты.</li>
-        <li><strong>Сломался экран на HP</strong> — замена матрицы за 1 час.</li>
-        <li><strong>Установка Windows на новый ноутбук</strong> — настройка, установка ПО, подключение к Wi-Fi.</li>
-        <li><strong>Замена жесткого диска на SSD</strong> — ускорение работы ПК в 3 раза.</li>
-        <li><strong>Ремонт после залития</strong> — промывка плат, сушка, восстановление функций.</li>
-    </ul>
-
-    <!-- Навыки -->
-    <h2>Наши навыки</h2>
-    <p>Опытные мастера с более чем 5-летним стажем. Работаем со всеми типами неисправностей:</p>
-    <ul>
-        <li>Диагностика и ремонт материнских плат</li>
-        <li>Замена и восстановление комплектующих</li>
-        <li>Программное восстановление систем</li>
-        <li>Настройка Wi-Fi, принтеров, периферии</li>
-        <li>Удаление вирусов и восстановление данных</li>
-    </ul>
-
-    <!-- Отзывы -->
-    <h2>Отзывы клиентов</h2>
-    <div>
-        <p><strong>Александр, Ваке</strong><br>Быстро приехал мастер, почистил ноутбук, заменил термопасту. Работает тихо и не греется. Спасибо!</p>
+    <!-- End Services Section -->
+    <!-- Start Portfolio Area -->
+    <div class="portfolio-area ptb--120 bg_color--1">
+        <div class="portfolio-sacousel-inner mb--55">
+            <div class="portfolio-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title text-center"><span class="subtitle">Наши проекты</span>
+                                <h2 class="title">Наши последние работы</h2>
+                                <p class="description">Наши мастера ежедневно ремонтируют устройства по всему Тбилиси. Вот лишь несколько примеров.<br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt--30">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
+                            <div class="im_portfolio">
+                                <div class="thumbnail_inner">
+                                    <div class="thumbnail"><a href="#"><img src="assets/images/portfolio/portfolio-8.jpg" alt="Ремонт Lenovo"></a></div>
+                                </div>
+                                <div class="content">
+                                    <div class="inner">
+                                        <div class="portfolio_heading">
+                                            <div class="category_list"><a href="#">Диагностика</a>
+                                            </div>
+                                            <h4 class="title"><a href="#">Не включается Lenovo</a></h4>
+                                        </div>
+                                        <div class="portfolio_hover">
+                                            <p>Диагностика, замена аккумулятора, ремонт платы.</p>
+                                        </div>
+                                    </div>
+                                </div><a class="transparent_link" href="#"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
+                            <div class="im_portfolio">
+                                <div class="thumbnail_inner">
+                                    <div class="thumbnail"><a href="#"><img src="assets/images/portfolio/portfolio-9.jpg" alt="Чистка ноутбука"></a></div>
+                                </div>
+                                <div class="content">
+                                    <div class="inner">
+                                        <div class="portfolio_heading">
+                                            <div class="category_list"><a href="#">Профилактика</a>
+                                            </div>
+                                            <h4 class="title"><a href="#">Перегрев ноутбука</a></h4>
+                                        </div>
+                                        <div class="portfolio_hover">
+                                            <p>Чистка кулера, замена термопасты. Устранили перегрев.</p>
+                                        </div>
+                                    </div>
+                                </div><a class="transparent_link" href="#"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
+                            <div class="im_portfolio">
+                                <div class="thumbnail_inner">
+                                    <div class="thumbnail"><a href="#"><img src="assets/images/portfolio/portfolio-10.jpg" alt="Замена экрана"></a></div>
+                                </div>
+                                <div class="content">
+                                    <div class="inner">
+                                        <div class="portfolio_heading">
+                                            <div class="category_list"><a href="#">Ремонт</a>
+                                            </div>
+                                            <h4 class="title"><a href="#">Сломался экран HP</a></h4>
+                                        </div>
+                                        <div class="portfolio_hover">
+                                            <p>Замена матрицы за 1 час. Полностью восстановили функционал.</p>
+                                        </div>
+                                    </div>
+                                </div><a class="transparent_link" href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
-        <p><strong>Мария, Глдани</strong><br>Не включался ноутбук Asus — оказалось, проблема с зарядкой. Починили за час. Очень доволен сервисом.</p>
+    <!-- End Portfolio Area -->
+    <!--Progress area Start -->
+    <div class="rn-progress-area ptb--120 bg_color--5">
+        <div class="container">
+            <div class="row row--35 align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="thumbnail"><img class="w-100" src="assets/images/about/about-4.png" alt="Навыки агентства">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 mt_sm--30">
+                    <div class="progress-content-here">
+                        <div class="section-title text-start"><span class="subtitle">Наши навыки</span>
+                            <h2 class="title">Навыки мастеров</h2>
+                            <p class="description">Опытные мастера с более чем 5-летним стажем. Работаем со всеми типами неисправностей.</p>
+                        </div>
+                        <div class="rn-progress-bar progress-bar--3">
+                            <div class="single-progress">
+                                <h6 class="title">Диагностика</h6>
+                                <div class="progress">
+                                    <div role="progressbar" class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                                </div><span class="label">95%</span>
+                            </div>
+                            <div class="single-progress">
+                                <h6 class="title">Ремонт плат</h6>
+                                <div class="progress">
+                                    <div role="progressbar" class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                </div><span class="label">90%</span>
+                            </div>
+                            <div class="single-progress">
+                                <h6 class="title">Установка ПО</h6>
+                                <div class="progress">
+                                    <div role="progressbar" class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
+                                </div><span class="label">98%</span>
+                            </div>
+                            <div class="single-progress">
+                                <h6 class="title">Выезд и сервис</h6>
+                                <div class="progress">
+                                    <div role="progressbar" class="progress-bar wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay=".6s" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                                </div><span class="label">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
-        <p><strong>Давид, Руставели</strong><br>Заказываем обслуживание компьютеров в офисе регулярно. Профессионально, пунктуально, надёжно.</p>
+    <!--Progress area End -->
+    <!-- Rn Testimonial Area Start-->
+    <div id="testimonials" class="rn-testimonial-area bg_color--1 ptb--120">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <!-- Start Tab Content  -->
+                    <div class="rn-testimonial-content tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                            <div class="inner">
+                                <p>Быстро приехал мастер, почистил ноутбук, заменил термопасту. Работает тихо и не греется. Спасибо!</p>
+                            </div>
+                            <div class="author-info">
+                                <h6><span>Александр</span> - Ваке</h6>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                            <div class="inner">
+                                <p>Не включался ноутбук Asus — оказалось, проблема с зарядкой. Починили за час. Очень доволен сервисом.</p>
+                            </div>
+                            <div class="author-info">
+                                <h6><span>Мария</span> - Глдани</h6>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+                            <div class="inner">
+                                <p>Заказываем обслуживание компьютеров в офисе регулярно. Профессионально, пунктуально, надёжно.</p>
+                            </div>
+                            <div class="author-info">
+                                <h6><span>Давид</span> - Руставели</h6>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+                            <div class="inner">
+                                <p>Продала старый ноутбук через скупку — оценили честно, деньги сразу. Отличный сервис!</p>
+                            </div>
+                            <div class="author-info">
+                                <h6><span>Нино</span> - Верия</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Tab Content  -->
+                </div>
+                <div class="col-lg-6 mt_md--40 mt_sm--40">
+                    <!-- Start Tab Nav  -->
+                    <ul class="testimonial-thumb-wrapper nav nav-tabs" id="myTab" role="tablist">
+                        <li>
+                            <a class="active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">
+                                <div class="testimonial-thumbnai">
+                                    <div class="thumb">
+                                        <img src="assets/images/client/testimonial-1.jpg" alt="Отзыв клиента">
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">
+                                <div class="testimonial-thumbnai">
+                                    <div class="thumb">
+                                        <img src="assets/images/client/testimonial-2.jpg" alt="Отзыв клиента">
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">
+                                <div class="testimonial-thumbnai">
+                                    <div class="thumb">
+                                        <img src="assets/images/client/testimonial-3.jpg" alt="Отзыв клиента">
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="tab4-tab" data-bs-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">
+                                <div class="testimonial-thumbnai">
+                                    <div class="thumb">
+                                        <img src="assets/images/client/testimonial-4.jpg" alt="Отзыв клиента">
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- End Tab Content  -->
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
-        <p><strong>Нино, Верия</strong><br>Продала старый ноутбук через скупку — оценили честно, деньги сразу. Отличный сервис!</p>
+    <!-- Start Testimonial Area  -->
+    <!-- Rn Blog area -->
+    <div class="rn-blog-area bg_color--5 ptb--120">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg-6 col-12">
+                    <div class="section-title text-start"><span class="subtitle">Наши новости</span>
+                        <h2 class="title">Последние новости</h2>
+                        <p class="description">Следите за нашими акциями и новыми услугами.<br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt--30">
+                <div class="col-lg-4 col-md-6 col-12 mt--30">
+                    <div class="im_box">
+                        <div class="thumbnail"><a href="#"><img class="w-100" src="assets/images/blog/blog-01.jpg" alt="Срочный выезд"></a></div>
+                        <div class="content">
+                            <div class="inner">
+                                <div class="content_heading">
+                                    <div class="category_list"><a href="#">Новость</a></div>
+                                    <h4 class="title"><a href="#">Срочный выезд в течение часа!</a></h4>
+                                </div>
+                                <div class="content_footer"><a class="rn-btn btn-opacity" href="#">Подробнее</a></div>
+                            </div><a class="transparent_link" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mt--30">
+                    <div class="im_box">
+                        <div class="thumbnail"><a href="#"><img class="w-100" src="assets/images/blog/blog-02.jpg" alt="Акция на чистку"></a></div>
+                        <div class="content">
+                            <div class="inner">
+                                <div class="content_heading">
+                                    <div class="category_list"><a href="#">Акция</a></div>
+                                    <h4 class="title"><a href="#">Чистка ноутбука + термопаста всего 70₾</a></h4>
+                                </div>
+                                <div class="content_footer"><a class="rn-btn btn-opacity" href="#">Подробнее</a></div>
+                            </div><a class="transparent_link" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mt--30">
+                    <div class="im_box">
+                        <div class="thumbnail"><a href="#"><img class="w-100" src="assets/images/blog/blog-03.jpg" alt="Ремонт Apple"></a></div>
+                        <div class="content">
+                            <div class="inner">
+                                <div class="content_heading">
+                                    <div class="category_list"><a href="#">Новость</a></div>
+                                    <h4 class="title"><a href="#">Ремонтируем MacBooks и моноблоки</a></h4>
+                                </div>
+                                <div class="content_footer"><a class="rn-btn btn-opacity" href="#">Подробнее</a></div>
+                            </div><a class="transparent_link" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <!-- Новости -->
-    <h2>Последние новости</h2>
-    <ul>
-        <li><strong>Новая услуга: срочный выезд в течение часа по Тбилиси!</strong><br>Теперь вы можете заказать мастера по ремонту уже через 60 минут после звонка.</li>
-        <li><strong>Акция: чистка ноутбука + замена термопасты — 70 ₾</strong><br>Только до конца месяца скидка 20% на профилактическое обслуживание.</li>
-        <li><strong>Расширение сервиса: ремонт моноблоков и MacBooks</strong><br>Теперь восстанавливаем устройства Apple и сложную технику от HP и Dell.</li>
-    </ul>
-
-    <!-- Местоположение -->
-    <h2>Наше местоположение</h2>
-    <p>Работаем по <strong>всему Тбилиси</strong>:</p>
-    <p><strong>Ваке, Глдани, Исани, Сабуртало, Вера, Авлабари, Чугурети, Руставели, Мукланеби</strong></p>
-    <p><strong>Выезд в течение часа.</strong><br>📞 Звоните — поможем срочно, даже в выходные!</p>
-
+    <!-- Rn Blog area End -->
+    <!-- Start Map area -->
+    <div id="contact" class="rn-contact-map-wrapper ptb--120 bg_color--1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center mb--50"><span class="subtitle">Где мы находимся</span>
+                        <h2 class="title">Наши офисы и выезд</h2>
+                        <p class="description">Работаем по всему Тбилиси. Выезд в течение часа.<br></p>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="rn-contact-map-area position-relative">
+                        <!-- Замените src на вашу карту Тбилиси -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192440.70530752392!2d44.57056045820314!3d41.72225340000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x6b5120158906b70!2z0JHQtdC-0LPRgNCw0LTRgdGP!5e0!3m2!1sru!2sge!4v1711456234567!5m2!1sru!2sge" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                     <div class="purchase-btn mt--50 text-center"><a class="btn-transparent" href="tel:+995555123456">Позвонить: +995 555 123 456</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Map area End -->
+    <!-- start footer area -->
+    <footer class="footer-area footer-style-01 bg_color--6">
+        <div class="im-call-to-action-area ptb--70 im-separator">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-xl-6 col-md-12 col-sm-12 col-12">
+                        <div class="inner">
+                            <h2 class="text-white mb--0">Хватит разговоров, давайте что-нибудь починим вместе</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-4 offset-xl-2 col-md-12 col-sm-12 col-12">
+                        <div class="call-to-cation-tbn text-start text-lg-end mt_md--20 mt_sm--20">
+                            <a class="btn-default btn-large btn-border btn-opacity" href="#contact">Связаться</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-wrapper ptb--70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="ft-text">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="assets/images/logo/logo-light.png" alt="Computer Repair Tbilisi">
+                                </a>
+                            </div>
+                            <p>© 2024 Ремонт компьютеров в Тбилиси. Все права защищены.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-xl-2 offset-xl-1 col-md-6 col-sm-6 col-12 mt_mobile--40">
+                        <div class="footer-link">
+                            <h4>Быстрые ссылки</h4>
+                            <ul class="ft-link">
+                                <li>
+                                    <a href="#services">Услуги</a>
+                                </li>
+                                <li>
+                                    <a href="#about">О нас</a>
+                                </li>
+                                <li>
+                                    <a href="#testimonials">Отзывы</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
+                        <div class="footer-link">
+                            <h4>Услуги</h4>
+                            <ul class="ft-link">
+                                <li>
+                                    <a href="#">Ремонт ноутбуков</a>
+                                </li>
+                                <li>
+                                    <a href="#">Чистка ноутбуков</a>
+                                </li>
+                                <li>
+                                    <a href="#">Установка Windows</a>
+                                </li>
+                                <li>
+                                    <a href="#">Скупка техники</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
+                        <div class="footer-link">
+                            <h4>Контакты</h4>
+                            <ul class="ft-link">
+                                <li>Телефон: <a href="tel:+995555123456">+995 555 123 456</a></li>
+                                <li>Email: <a href="mailto:info@repair.ge">info@repair.ge</a></li>
+                                <li>Работаем по всему Тбилиси</li>
+                            </ul>
+                            <div class="social-share-inner mt--20">
+                                <ul class="social-share social-style--2 d-flex justify-content-start liststyle">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer area -->
+    <!-- Start Top To Bottom Area  -->
+    <div class="rn-progress-parent">
+        <svg class="rn-back-circle svg-inner" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- End Top To Bottom Area  -->
+    <!-- js  
+======================================-->
+    <!-- modernizer JS -->
+    <script src="assets/js/vendor/modernizer.min.js"></script>
+    <!-- jquery JS -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/avoid-console.js"></script>
+    <script src="assets/js/vendor/feather.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/video.js"></script>
+    <script src="assets/js/vendor/masonry.js"></script>
+    <script src="assets/js/vendor/lightbox.js"></script>
+    <script src="assets/js/vendor/particles.js"></script>
+    <script src="assets/js/vendor/backtotop.js"></script>
+    <script src="assets/js/vendor/odometer.js"></script>
+    <script src="assets/js/vendor/jquery-appear.js"></script>
+    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    <script src="assets/js/vendor/wow.js"></script>
+    <!-- main JS -->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
