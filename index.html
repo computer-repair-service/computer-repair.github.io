@@ -19,6 +19,92 @@
     <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
     <link rel="stylesheet" href="assets/css/vendor/odometer.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Добавляем стили для всплывающих кнопок -->
+    <style>
+        .floating-buttons {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .floating-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            opacity: 0.8;
+        }
+
+        .floating-button:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+
+        .floating-button i {
+            font-size: 24px;
+        }
+
+        .floating-button span {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 14px;
+            white-space: nowrap;
+            visibility: hidden;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .floating-button:hover span {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .float-left {
+            left: 20px;
+        }
+
+        .float-right {
+            right: 20px;
+        }
+
+        .telegram {
+            background: #0088cc;
+        }
+
+        .phone {
+            background: #4caf50;
+        }
+
+        . whatsapp {
+            background: #25d366;
+        }
+
+        .viber {
+            background: #7360f2;
+        }
+
+        /* Позиционирование текста для левой и правой кнопок */
+        .float-left .btn-text {
+            right: calc(100% + 10px);
+        }
+
+        .float-right .btn-text {
+            left: calc(100% + 10px);
+        }
+    </style>
 </head>
 <body>
     <!-- start header Arae -->
@@ -727,6 +813,29 @@
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
     </div>
+    
+    <!-- Добавляем всплывающие кнопки -->
+    <div class="floating-buttons float-left">
+        <a href="https://t.me/Allrttt" target="_blank" class="floating-button telegram">
+            <i class="fab fa-telegram"></i>
+            <span class="btn-text">Telegram</span>
+        </a>
+        <a href="tel:+995558242910" class="floating-button phone">
+            <i class="fas fa-phone"></i>
+            <span class="btn-text">Позвонить</span>
+        </a>
+    </div>
+    
+    <div class="floating-buttons float-right">
+        <a href="https://wa.me/995558242910" target="_blank" class="floating-button whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            <span class="btn-text">WhatsApp</span>
+        </a>
+        <a href="viber://chat?number=995558242910" target="_blank" class="floating-button viber">
+            <i class="fab fa-viber"></i>
+            <span class="btn-text">Viber</span>
+        </a>
+    </div>
     <!-- End Top To Bottom Area  -->
     <!-- js  
 ======================================-->
@@ -750,5 +859,10 @@
     <script src="assets/js/vendor/wow.js"></script>
     <!-- main JS -->
     <script src="assets/js/main.js"></script>
+    
+    <!-- Подключаем Font Awesome для иконок -->
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+    <!-- Или используем CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
 </body>
 </html>
